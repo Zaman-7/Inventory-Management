@@ -9,9 +9,9 @@ public class InventoryGUI extends JFrame {
     private JLabel statusLabel;
 
     // Update these with your DB credentials
-    private static final String URL = "jdbc:mysql://localhost:3306/inventory_db";
-    private static final String USER = "root";
-    private static final String PASSWORD = "Aleem007";
+    private static final String URL = "jdbc:mysql://localhost:3306/"; //Update with you own database details
+    private static final String USER = ""; // update with the user set during the database setup
+    private static final String PASSWORD = ""; // fill the same as done during the setup of databse
 
     public InventoryGUI() {
         setTitle("Inventory Management");
